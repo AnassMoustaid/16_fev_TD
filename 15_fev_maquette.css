@@ -1,0 +1,214 @@
+@font-face {
+    font-family: Slabo;
+    src: url(font/Slabo_27px/Slabo27px-Regular.ttf);
+}
+
+@font-face {
+    font-family: Open-Sans;
+    src: url(font/Open_Sans/OpenSans-Regular.ttf);
+}
+
+body{
+    background-image: url(fond.png);
+    margin: 0%;
+}
+
+nav{
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #34b1b2;
+    border-bottom: 2px #2d9fa4;
+    border-top: 2px #2d9fa4;
+    overflow: auto;
+    border-bottom: 2px solid #485059 ;
+    border-top: 2px solid #485059 ;
+}
+
+nav img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 450px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    font-family: Slabo;
+    font-size: 27px;
+    padding: 15px; 
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+main{
+    max-width: 1000px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firstarticle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.firstarticle h2{
+    text-align: center;
+    color: #485059;
+    font-family: Slabo;
+    font-size: 2.5em;
+}
+
+.firstarticle article{
+    text-align: center;
+    color: #485059;
+    font-family: Open-Sans;
+}
+
+.todayspecial{
+    display: inline-block;
+    background-color:#b6dedc;
+    padding: 30px;
+    width: 65%;
+}
+
+.todayspecial h2{
+    color: #485059;
+    font-family: Slabo;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.todayspecial p{
+    color: #485059;
+    font-family: Open-Sans;
+    overflow: auto;
+}
+
+
+.crustyfish{
+    display: inline-block;
+    width: 45.5%;
+    padding: 0px 0px 0px 0px;
+    margin: 0%;
+}
+
+.crustyfish h4{
+    text-align: center;
+    color:#485059;
+    font-size: 1.8em ;
+}
+
+.crustyfish p{
+    color: #485059;
+}
+
+.first_recipe_img, .second_recipe_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.multifish{
+    display: inline-block;
+    width: 49%;
+    padding: 0px 0px 0px 0px;
+    margin: 0%;
+    float: right;
+}
+
+.multifish h4{
+    text-align: center;
+    color: #485059;
+    font-size: 1.8em;
+}
+
+fa-solid fa-droplet{
+    color: #34b1b2;
+}
+
+button{
+    padding: 5px;
+    color: white;
+    background-color:#34b1b2 ;
+    border: transparent;
+    float: right;
+}
+
+.firstword{
+    color: #34b1b2;
+}
+
+
+.newsandevents{
+    display: inline-block;
+    position: relative;
+    background-color:#34b1b2;
+    border: 1px;
+    padding: 10px;
+    width: 25%;
+    float: right;
+    border: 2px solid #485059;
+}
+
+.newsandevents h4{
+    color: white;
+    font-size: 1.4em;
+
+}
+
+.newsandevents span{
+    color: rgb(128, 128, 128);
+}
+
+.newsandevents p{
+    color: white;
+}
+
+.vignette{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    top: -30px;
+    right: -20px;
+}
+
+
+
+footer{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.academy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 40px;
+}
+
+footer p{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 70%;
+    color: #485059;
+}
